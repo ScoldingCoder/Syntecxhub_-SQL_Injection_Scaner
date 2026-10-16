@@ -383,7 +383,7 @@ def main():
     parser = argparse.ArgumentParser(
         description="Basic SQL injection scanner (educational; authorized targets only)."
     )
-    parser.add_argument("url", help="http://localhost/DVWA/")
+    parser.add_argument("url", help="Target URL to scan")
     parser.add_argument("--crawl", action="store_true", help="Discover and scan additional same-host pages")
     parser.add_argument("--max-pages", type=int, default=10, help="Max pages to crawl with --crawl")
     parser.add_argument("--workers", type=int, default=4, help="Max concurrent worker threads")
