@@ -1,0 +1,5 @@
+2026-10-15 23:49:05,988 [INFO] MainThread: Logged into DVWA.
+2026-10-15 23:49:06,592 [INFO] MainThread: Security level is currently: low .
+2026-10-15 23:49:06,794 [INFO] MainThread: Detected 1 form(s) on http://localhost/DVWA/vulnerabilities/sqli/?id=1&Submit=Submit
+2026-10-15 23:49:07,214 [WARNING] form_0: VULNERABLE: http://localhost/DVWA/vulnerabilities/sqli/?id=1&Submit=Submit# (payload="'", method=get)
+2026-10-15 23:49:07,214 [INFO] MainThread: Scan complete: 1 form(s) tested, 1 vulnerable.
